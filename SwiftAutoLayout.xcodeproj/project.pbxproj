@@ -56,6 +56,7 @@
 		72B7DF4A1C74503A0012F276 /* SwiftAutoLayoutTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftAutoLayoutTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B7DF5A1C74505A0012F276 /* SwiftAutoLayoutTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftAutoLayoutTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFAFD3C1C68E3F80012FD9B /* SwiftAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FD23981C8E3BF900823CFD /* SwiftAutoLayoutLab.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftAutoLayoutLab.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 		725A2B281A0468F300F44058 = {
 			isa = PBXGroup;
 			children = (
+				D0FD23981C8E3BF900823CFD /* SwiftAutoLayoutLab.playground */,
 				725B5E6E1C40C5B300ABF520 /* Framework */,
 				725A2B341A0468F300F44058 /* Sources */,
 				725A2B411A0468F300F44058 /* SwiftAutoLayoutTests */,
@@ -829,6 +831,7 @@
 				72B7DF541C74503A0012F276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72B7DF621C74505A0012F276 /* Build configuration list for PBXNativeTarget "SwiftAutoLayoutTests-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -837,6 +840,7 @@
 				72B7DF641C74505A0012F276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FFAFD411C68E3F80012FD9B /* Build configuration list for PBXNativeTarget "SwiftAutoLayout-tvOS" */ = {
 			isa = XCConfigurationList;
