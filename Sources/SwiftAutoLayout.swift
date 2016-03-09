@@ -153,3 +153,46 @@ public func ~(lhs: NSLayoutConstraint, rhs: LayoutPriority) -> NSLayoutConstrain
     newConstraint.priority = rhs
     return newConstraint
 }
+
+
+extension NSLayoutRelation: CustomStringConvertible {
+    
+    public var description: String {
+        switch self {
+        case LessThanOrEqual: return "<="
+        case Equal: return "=="
+        case GreaterThanOrEqual: return ">="
+        }
+    }
+}
+
+extension NSLayoutAttribute: CustomStringConvertible {
+    public var description: String {
+        switch self
+        {
+        case Left: return "Left"
+        case Right: return "Right"
+        case Top: return "Top"
+        case Bottom: return "Bottom"
+        case Leading: return "Leading"
+        case Trailing: return "Trailing"
+        case Width: return "Width"
+        case Height: return "Height"
+        case CenterX: return "CenterX"
+        case CenterY: return "CenterY"
+        case Baseline: return "Baseline"
+            //    public static var LastBaseline: NSLayoutAttribute { get }
+            //    @available(OSX 10.11, *)
+        case FirstBaseline: return "FirstBaseline"
+            
+        case NotAnAttribute: return "NotAnAttribute"
+        }
+    }
+}
+
+extension NSLayoutConstraint {
+    override public var description: String {
+        return "\(firstAttribute) \(relation) \(secondAttribute) * \(multiplier) + \(constant) ~ \(priority)"
+    }
+}
+

@@ -58,10 +58,9 @@ NSLayoutConstraint.activateConstraints([
 
 ### Contact
 
-* Indragie Karunaratne
-* [@indragie](http://twitter.com/indragie)
-* [http://indragie.com](http://indragie.com)
+* Jason Jobe
+* [http://github.com/wildthink](http://github.com/wildthink)
 
 ### License
 
-SwiftAutoLayout is licensed under the MIT License.
+SwiftAutoLayout is licensed under the MIT License. Based on [original work](https://github.com/indragiek/SwiftAutoLayout) by Indragie Karunaratne.
